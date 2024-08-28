@@ -20,7 +20,7 @@ if (class_exists('MongoId', false)) {
 use Alcaeus\MongoDbAdapter\TypeInterface;
 use MongoDB\BSON\ObjectID;
 
-class MongoId implements Serializable, TypeInterface, JsonSerializable
+class MongoId implements TypeInterface, JsonSerializable
 {
     /*
      * @var ObjectID
